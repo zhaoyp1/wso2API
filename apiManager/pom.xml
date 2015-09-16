@@ -25,6 +25,21 @@
       <version>2.4</version>
       <classifier>jdk15</classifier><!--指定jdk版本 -->
     </dependency>
+    <dependency>
+      <groupId>org.wso2.carbon</groupId>
+      <artifactId>org.wso2.carbon.authenticator.stub</artifactId>
+      <version>4.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.wso2.carbon</groupId>
+      <artifactId>org.wso2.carbon.um.ws.api</artifactId>
+      <version>4.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.wso2.carbon</groupId>
+      <artifactId>org.wso2.carbon.user.core</artifactId>
+      <version>4.2.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>wso2API_apiManager</finalName>
